@@ -1,0 +1,201 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8; /* Soft light background */
+    color: #333;
+  }
+  
+  /* Main Container */
+  .container {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #ffffff; /* White background for content */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Heading Styling */
+  h1 {
+    text-align: center;
+    color: #007bff;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  /* Add Post Section */
+  .add-post {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px whitesmoke;
+    text-align: center;
+  }
+  
+  /* Input and Button Styles */
+  .add-post input, 
+  .add-post textarea, 
+  .add-post button {
+    display: block;
+    width: 80%; /* Ensures the form elements are centered */
+    margin: 10px auto;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+    box-sizing: border-box;
+  }
+  
+  .add-post textarea {
+    height: 80px; /* Larger height for the content area */
+    resize: none; /* Prevent resizing */
+  }
+  
+  .add-post input[type="file"] {
+    padding: 5px;
+  }
+  
+  .add-post button {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-post button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Posts Container */
+  #postContainer {
+    margin-top: 20px;
+  }
+  
+  /* Individual Post */
+  .post {
+    background-color: #fff; /* Changed from black to white */
+    color: #333; /* Ensures text is visible */
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Post Header */
+  .post-header {
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  /* Post Body */
+  .post-body {
+    margin: 10px 0;
+    font-size: 1em;
+    line-height: 1.6;
+    text-align: center;
+  }
+  
+  /* Media Styling */
+  .post-media img, 
+  .post-media video {
+    display: block;
+    margin: 10px auto;
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
+  /* Horizontal Line Between Posts */
+  .post-separator {
+    border: none;
+    border-top: 3px solid black;
+    margin: 20px 0;
+  }
+  
+  /* Message Section Styling */
+  .message-section {
+    background-color: #e3f2fd; /* Light blue background */
+    padding: 15px;
+    border: 1px solid #90caf9; /* Blue border */
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .message-section p {
+    font-size: 1.2em;
+    color: #007bff; /* Blue text color */
+    margin: 0;
+  }
+  
+  .message-section a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  .message-section a:hover {
+    text-decoration: underline;
+    color: #0056b3; /* Darker blue on hover */
+  }
+  
+  .contact-icon {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-left: 8px;
+    display: inline-block;
+  }
+  
+  /* Responsive Styling */
+  @media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+  
+    .add-post, 
+    #postContainer .post {
+        padding: 15px;
+    }
+  
+    .post-header {
+        font-size: 1.2em;
+    }
+  
+    .post-body {
+        font-size: 1em;
+    }
+  
+    .reactions {
+        gap: 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .add-post input, 
+    .add-post textarea, 
+    .add-post button {
+        font-size: 0.9em;
+    }
+  
+    .reactions span {
+        font-size: 0.9em;
+    }
+  
+    .comments textarea {
+        font-size: 0.85em;
+    }
+  
+    .comments button {
+        font-size: 0.85em;
+        padding: 6px 10px;
+    }
+  }
+  

@@ -1,0 +1,85 @@
+/* Footer container */
+footer {
+    background-color: #2e2e2e;  /* Dark grey background */
+    color: white;
+    padding: 30px 40px;
+    text-align: center;
+    font-size: 14px;
+    position: relative;
+}
+
+/* Footer header */
+footer h1 {
+    font-size: 24px;
+    color: #27ae60;  /* Green color for "Plastic Wizards" */
+    margin-bottom: 20px;
+}
+
+/* Footer address section */
+footer .address {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+footer .address span {
+    display: block;
+    margin: 5px 0;
+}
+
+/* Important Links section */
+footer .important-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+footer .important-links ul {
+    list-style: none;
+    margin: 0 30px;
+    padding: 0;
+}
+
+footer .important-links ul li {
+    margin: 10px 0;
+}
+
+footer .important-links ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
+}
+
+/* Hover effect for links */
+footer .important-links ul li a:hover {
+    color: #f9b94f;  /* Yellow color on hover */
+}
+
+/* Social Media section */
+footer .social-media {
+    margin-bottom: 20px;
+}
+
+footer .social-media a {
+    color: white;
+    margin: 0 10px;
+    font-size: 24px;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+/* Hover effect for social media icons */
+footer .social-media a:hover {
+    color: #f9b94f;  /* Yellow color on hover */
+}
+
+/* Footer bottom copyright */
+footer .copyright {
+    font-size: 14px;
+    background-color: #1a3d69;  /* Dark blue background for footer bottom */
+    padding: 10px;
+    color: green;  /* Green text color */
+}
